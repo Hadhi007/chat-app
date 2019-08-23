@@ -10,7 +10,6 @@ socket.on('chat-message', data => {
     appendMessage(`${data.name}:${data.message}`)
 })
 
-
 socket.on('user-connected', name => {
     appendMessage(`${name} connected`)
 })
